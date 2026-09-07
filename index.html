@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Studio Catálogo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <strong>Studio Catálogo</strong>
+    <span class="muted">texturas · tipografias · sfx · trilhas · imagens · conversor</span>
+  </header>
+  <nav id="tabs">
+    <button data-tab="textures" class="on">Texturas</button>
+    <button data-tab="fonts">Tipografias</button>
+    <button data-tab="sfx">Efeitos sonoros</button>
+    <button data-tab="tracks">Trilhas</button>
+    <button data-tab="images">Imagens de apoio</button>
+    <button data-tab="convert">Conversor</button>
+  </nav>
+  <section class="toolbar" id="toolbar"></section>
+  <p id="status" class="status"></p>
+  <main id="results"></main>
+  <footer id="pager"></footer>
+  <dialog id="detail">
+    <div class="detail-head">
+      <h2 id="detail-title"></h2>
+      <button type="button" id="detail-close">Fechar</button>
+    </div>
+    <div id="detail-body"></div>
+  </dialog>
+  <audio id="player" controls style="display:none"></audio>
+  <script src="./app.js"></script>
+</body>
+</html>

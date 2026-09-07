@@ -1,0 +1,13 @@
+{
+  "name": "studio-catalogo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Catálogo de texturas, tipografias, SFX, trilhas, imagens e conversor local",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "start": "node serve.mjs",
+    "build": "node build.mjs",
+    "preview": "node serve.mjs"
+  }
+}
